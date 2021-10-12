@@ -1,0 +1,22 @@
+issues:
+
+fix "back and next" buttons
+--links
+--size
+
+standardize
+--font sizes
+
+insert images
+
+2 - "item no. 2" font size wrong
+4 - "item no. 4" font isze wrong; back/next buttons too big
+7 - back button "<>" instead of "<<"
+12 - descrip dimensions line different
+14 - title font size
+25 - remove "<"
+39 rising above - font size issue in descrip
+36 passage - descrip text font size
+no.37 pope - descrip text font size
+no.40 mariness - no descrip title, no descrip text, price is $00.00
+no.41 baby Jesus - no descrip title, no descrip text, price is $00.00
