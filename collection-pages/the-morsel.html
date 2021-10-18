@@ -19,6 +19,16 @@
     <link id="wsite-base-style" rel="stylesheet" type="text/css" href="../sites.css" />
     <link rel="stylesheet" type="text/css" href="../main_style.css" title="wsite-theme-css" />
 
+
+
+    <!-- <script>
+      import Splide from '@splidejs/splide';
+      new Splide( '.splide' ).mount();
+    </script> -->
+
+    <!-- <link rel="stylesheet" href="../node_modules/@splidejs/splide/dist/css/splide.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/splide.min.css">
+
     <style type="text/css">
       .wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph,
       .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p,
@@ -221,7 +231,7 @@
                                     <font size="2"><strong>Click to enlarge</strong></font> </a
                                   ><br /><br />
                                   <font size="2"
-                                    ><strong>&lt;<a href="pope-francis-in-washington.html">&lt; Back</a><a href="hoops-and-dancers.html">&nbsp;</a></strong
+                                    ><strong>&lt;<a href="pope-francis-in-manhattan.html">&lt; Back</a></strong
                                     ><strong>&nbsp;</strong></font
                                   >
                                 </font> </font
@@ -281,6 +291,27 @@
 
               <div class="wsite-spacer" style="height: 50px"></div>
 
+
+
+
+
+              <div class="splide">
+                <div class="splide__track">
+              		<ul class="splide__list">
+              			<li class="splide__slide">Slide 01</li>
+              			<li class="splide__slide">Slide 02</li>
+              			<li class="splide__slide">Slide 03</li>
+                    <li class="splide__slide"><img src="../logo.png" style="width:500px;" /></li>
+              		</ul>
+                </div>
+              </div>
+
+              <!-- <script src="../node_modules/@splidejs/splide/dist/js/splide.min.js"></script> -->
+
+
+
+
+
               <div class="paragraph" style="text-align: left">
                 <font size="3"
                   ><strong>
@@ -327,9 +358,8 @@
       </div>
     </div>
 
-    <script type="text/javascript" src="./the-morsel_files/plugin.js.download"></script>
-    <script type="text/javascript" src="./the-morsel_files/mobile.js.download"></script>
-    <script type="text/javascript" src="./the-morsel_files/custom.js.download"></script>
+
+
 
     <!-- <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -510,4 +540,15 @@ playback timings (ms):
 -->
     <div class="selection_bubble_root" style="display: none"></div>
   </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+  <!-- <script src="../script.js"></script> -->
+
+  <script>
+    import Splide from '@splidejs/splide';
+    document.addEventListener( 'DOMContentLoaded', function () {
+        new Splide( '.splide' ).mount();
+    } );
+  </script>
+
 </html>
