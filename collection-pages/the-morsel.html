@@ -21,13 +21,17 @@
 
 
 
-    <!-- <script>
-      import Splide from '@splidejs/splide';
-      new Splide( '.splide' ).mount();
-    </script> -->
 
-    <!-- <link rel="stylesheet" href="../node_modules/@splidejs/splide/dist/css/splide.min.css"> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/splide.min.css">
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/css/splide-core.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/css/splide.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.1.6/dist/js/splide.min.js"></script>
+
+    <script src="../script.js"></script>
+
+
 
     <style type="text/css">
       .wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph,
@@ -265,6 +269,42 @@
                 </font>
               </div>
 
+              <div class="wsite-spacer" style="height: 22px"></div>
+
+              <div class="flex">
+                <div class="splide sketchGallery">
+                  <div class="splide__track">
+                		<ul class="splide__list">
+                      <!-- <li class="splide__slide">hello</li> -->
+                			<li class="splide__slide"><img src="the-morsel_files/morsel_sketches/5.jpg" /></li>
+                			<li class="splide__slide"><img src="the-morsel_files/morsel_sketches/1.jpg" /></li>
+                			<li class="splide__slide"><img src="the-morsel_files/morsel_sketches/3.jpg" /></li>
+                      <li class="splide__slide"><img src="the-morsel_files/morsel_sketches/4.jpg" /></li>
+                      <li class="splide__slide"><img src="the-morsel_files/morsel_sketches/2.jpg" /></li>
+                      <li class="splide__slide"><img src="the-morsel_files/morsel_sketches/6.jpg" /></li>
+                      <li class="splide__slide"><img src="the-morsel_files/morsel_sketches/7.jpg" /></li>
+                      <li class="splide__slide"><img src="the-morsel_files/morsel_sketches/8.jpg" /></li>
+                      <li class="splide__slide"><img src="the-morsel_files/morsel_sketches/9.jpg" /></li>
+                      <li class="splide__slide"><img src="the-morsel_files/morsel_sketches/10.jpg" /></li>
+                      <li class="splide__slide"><img src="the-morsel_files/morsel_sketches/11.jpg" /></li>
+                      <li class="splide__slide"><img src="the-morsel_files/morsel_sketches/12.jpg" /></li>
+                      <li class="splide__slide"><img src="the-morsel_files/morsel_sketches/13.jpg" /></li>
+                      <li class="splide__slide"><img src="the-morsel_files/morsel_sketches/14.jpg" /></li>
+                      <li class="splide__slide"><img src="the-morsel_files/morsel_sketches/15.jpg" /></li>
+                      <li class="splide__slide"><img src="the-morsel_files/morsel_sketches/16.jpg" /></li>
+                      <li class="splide__slide"><img src="the-morsel_files/morsel_sketches/17.jpg" /></li>
+                      <li class="splide__slide"><img src="the-morsel_files/morsel_sketches/18.jpg" /></li>
+                      <li class="splide__slide"><img src="the-morsel_files/morsel_sketches/22.jpg" /></li>
+                      <li class="splide__slide"><img src="the-morsel_files/morsel_sketches/20.jpg" /></li>
+                      <li class="splide__slide"><img src="the-morsel_files/morsel_sketches/21.jpg" /></li>
+                      <li class="splide__slide"><img src="the-morsel_files/morsel_sketches/19.jpg" /></li>
+                		</ul>
+                  </div>
+                </div>
+              </div>
+
+
+
               <div class="paragraph" style="text-align: left">
                 <br /><strong>
                   <font size="7">Videos</font>
@@ -290,23 +330,6 @@
               </div>
 
               <div class="wsite-spacer" style="height: 50px"></div>
-
-
-
-
-
-              <div class="splide">
-                <div class="splide__track">
-              		<ul class="splide__list">
-              			<li class="splide__slide">Slide 01</li>
-              			<li class="splide__slide">Slide 02</li>
-              			<li class="splide__slide">Slide 03</li>
-                    <li class="splide__slide"><img src="../logo.png" style="width:500px;" /></li>
-              		</ul>
-                </div>
-              </div>
-
-              <!-- <script src="../node_modules/@splidejs/splide/dist/js/splide.min.js"></script> -->
 
 
 
@@ -541,14 +564,5 @@ playback timings (ms):
     <div class="selection_bubble_root" style="display: none"></div>
   </body>
 
-  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
-  <!-- <script src="../script.js"></script> -->
-
-  <script>
-    import Splide from '@splidejs/splide';
-    document.addEventListener( 'DOMContentLoaded', function () {
-        new Splide( '.splide' ).mount();
-    } );
-  </script>
 
 </html>
