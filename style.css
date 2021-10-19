@@ -1,0 +1,60 @@
+
+div.splide { /*selects all div elements inside .splide class*/
+
+}
+
+.flex {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /*for horiz and vert centering*/
+  /* display: grid;
+  place-items: center;  */
+  /* padding: 0 50px 0 50px; */
+}
+
+.splide__track {
+  margin-left: 60px;
+  margin-right: 60px;
+
+  border-left: solid #ccc 1px;
+  border-right: solid #ccc 1px;
+
+
+  /* #627c96 */
+  /* #b5b5b5 */
+  /* #415161 */
+
+}
+
+
+.sketchGallery {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 60px;
+}
+
+.sketchGallery img {
+  /*Centering each slider image*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px; /*width of the image*/
+  /*----------------*/
+
+  padding: 35px 0 35px 0;
+}
+
+/* .my-slider-progress {
+    background: #ccc;
+  }
+
+.my-slider-progress-bar {
+  background: greenyellow;
+  height: 2px;
+  transition: width 400ms ease;
+  width: 0;
+} */
